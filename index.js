@@ -65,5 +65,5 @@ var server = http.createServer(function (req, res) {
     } 
 });
 var port = process.env.PORT || 80;
-server.listen(8800);
+server.listen(port);
 console.log("Server is listening at port 8800");
