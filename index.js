@@ -5,7 +5,7 @@ var url = require("url");
 // 
 var replace = require("./templates/replace.js");
 // json file
-var obj = fs.readFileSync("./dev-data/data.json");
+var obj = fs.readFileSync("./data.json");
 var jsonObj = JSON.parse(obj);
 
 // templates
